@@ -41,9 +41,9 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
 
   const script = `
     function getElementTop(el) {
-      let actualTop = el.offsetTop
+      var actualTop = el.offsetTop
     
-      let current = el.offsetParent
+      var current = el.offsetParent
     
       while (current !== null) {
         actualTop += current.offsetTop
@@ -58,7 +58,6 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       var hash = window.decodeURI(location.hash.replace('#', ''))
       if (hash !== '') {
         var element = document.querySelector('[${attr}=' + hash + ']')
-        console.log(element)
         if (element) {
           var offset = getElementTop(element)
           // Wait for the browser to finish rendering before scrolling.
