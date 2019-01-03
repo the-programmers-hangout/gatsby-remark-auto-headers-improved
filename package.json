@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-auto-headers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
   "main": "index.js",
   "repository": "https://github.com/zidoshare/gatsby-remark-auto-headers",
