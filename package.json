@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/the-programmers-hangout/gatsby-remark-auto-headers-improved/issues"
   },
-  "repository": "https://github.com/zidoshare/gatsby-remark-auto-headers",
+  "repository": "https://github.com/the-programmers-hangout/gatsby-remark-auto-headers-improved",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
