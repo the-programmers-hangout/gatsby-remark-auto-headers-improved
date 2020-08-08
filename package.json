@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-remark-auto-headers",
-  "version": "1.0.3",
-  "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
+  "name": "gatsby-remark-auto-headers-improved",
+  "version": "1.0.4",
+  "description": "Improved version of gatsby-remark-auto-headers, plugin to autolink headers in markdown processed by Remark",
   "main": "index.js",
   "repository": "https://github.com/zidoshare/gatsby-remark-auto-headers",
-  "author": "zido <wuhongxu1208@gmail.com>",
+  "authors": "zido <wuhongxu1208@gmail.com>, JP Sirois <jp@veksen.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zidoshare/gatsby-remark-auto-headers/issues"
+    "url": "https://github.com/the-programmers-hangout/gatsby-remark-auto-headers-improved/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
