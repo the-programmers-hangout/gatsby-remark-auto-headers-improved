@@ -1,8 +1,9 @@
-var attr = 'id'
+let attr = 'id'
+
 const getTargetOffset = hash => {
   const id = window.decodeURI(hash.replace(`#`, ``))
   if (id !== ``) {
-    const element = document.querySelector('[' + attr + '=' + id + ']')
+    const element = document.querySelector(`[${attr}=${id}]`)
     if (element) {
       return getElementTop(element)
     }
