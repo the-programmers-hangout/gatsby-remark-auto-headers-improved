@@ -1,6 +1,6 @@
-let attr = 'id'
+let attr = "id"
 
-const getTargetOffset = hash => {
+const getTargetOffset = (hash) => {
   const id = window.decodeURI(hash.replace(`#`, ``))
   if (id !== ``) {
     const element = document.querySelector(`[${attr}=${id}]`)

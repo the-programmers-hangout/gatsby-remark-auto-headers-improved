@@ -1,10 +1,10 @@
-const React = require('react')
+const React = require("react")
 
 const pluginDefaults = {
   className: `anchor`,
   icon: true,
   offsetY: 0,
-  attr: 'id',
+  attr: "id",
 }
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
@@ -73,12 +73,13 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
     <style key={`gatsby-remark-autolink-headers-style`} type="text/css">
       {styles}
     </style>
-  ) : (
-    undefined
-  )
+  ) : undefined
 
   return setHeadComponents([
     style,
-    <script key={`gatsby-remark-autolink-headers-script`} dangerouslySetInnerHTML={{ __html: script }} />,
+    <script
+      key={`gatsby-remark-autolink-headers-script`}
+      dangerouslySetInnerHTML={{ __html: script }}
+    />,
   ])
 }
